@@ -7,8 +7,14 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
+/**
+ * Clase que solicita el nombre y pasa a la activity saludo
+ *
+ * @Author Sergio Sánchez Polaino
+ */
 public class SolicitarNombre extends AppCompatActivity {
 
+    //Código para gestionar las respuestas de los intents
     private final int CODIGO_CLASE_SALUDO = 1;
 
     private EditText nombre;
