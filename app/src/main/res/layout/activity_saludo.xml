@@ -5,26 +5,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.hlc.diurno.examenud1hlc.MainActivity">
+    tools:context="com.hlc.diurno.examenud1hlc.Saludo">
 
-    <Button
-        android:id="@+id/button"
+    <TextView
+        android:id="@+id/tv_titulo_saludo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="iniciarSolicitarNombre"
-        android:text="@string/saludo" />
+        android:textSize="18sp" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/bt_acepto_saludo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="iniciarDondeEstudias"
-        android:text="@string/donde_estudias" />
+        android:onClick="devolverResultados"
+        android:text="@string/bt_acepto_saludo" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/bt_rechazo_saludo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="iniciarVideoFavorito"
-        android:text="@string/busca_video" />
+        android:onClick="devolverResultados"
+        android:text="@string/bt_rechazo_saludo" />
 </LinearLayout>

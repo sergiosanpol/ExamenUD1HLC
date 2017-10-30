@@ -16,6 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".SolicitarNombre" />
+        <activity android:name=".Saludo"></activity>
     </application>
 
 </manifest>

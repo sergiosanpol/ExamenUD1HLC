@@ -1,3 +1,17 @@
 <resources>
+    <!-- MainActivity -->
     <string name="app_name">ExamenUD1HLC</string>
+    <string name="saludo">Salúdame</string>
+    <string name="donde_estudias">¿Dónde estudias?</string>
+    <string name="busca_video">Busca tu video favorito</string>
+
+
+    <!-- SolicitarNombre -->
+    <string name="titulo_nombre">Para poder saludarte, escribe tu nombre</string>
+    <string name="hint_nombre">Nombre</string>
+    <string name="aceptar_nombre">Aceptar</string>
+
+    <!-- Saludo -->
+    <string name="bt_acepto_saludo">Acepto saludo</string>
+    <string name="bt_rechazo_saludo">Rechazo saludo</string>
 </resources>
